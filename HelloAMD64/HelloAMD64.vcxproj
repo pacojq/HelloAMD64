@@ -143,7 +143,9 @@
     <ClCompile Include="assembly.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="assembly.asm" />
+    <MASM Include="16bitRegisters.asm" />
+    <MASM Include="32and64bitRegisters.asm" />
+    <MASM Include="intro.asm" />
     <MASM Include="main.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

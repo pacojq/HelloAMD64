@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="assembly.asm">
+    <MASM Include="main.asm">
       <Filter>Source Files</Filter>
     </MASM>
-    <MASM Include="main.asm">
+    <MASM Include="16bitRegisters.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="intro.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="32and64bitRegisters.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

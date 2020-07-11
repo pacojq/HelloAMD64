@@ -1,5 +1,5 @@
 .code
-main proc
+main_32and64bit proc
 
 	; 32 bit registers are the same as 16 bit, but with an 'e' at the beginning
 	; ax -> eax
@@ -30,5 +30,5 @@ main proc
 	mov eax, 1 ; any time we use a 32 bit operation, the high bytes of the 64 bit register turn to 0!!!
 
 	ret
-main endp
+main_32and64bit endp
 end
